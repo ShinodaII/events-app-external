@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-ui
-        image: drehnstrom/events-external-deloitte:v1.0
+        image: gcr.io/roidtc-march406/external-image:v1.0.0
         env: 
         - name: SERVER
           value: "http://demo-service:8082"
